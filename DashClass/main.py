@@ -134,4 +134,4 @@ def update_dashboard(selected_class, selected_exam):
 # Part D) Run server
 # -------------------------
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    app.run(debug=True, use_reloader=True)

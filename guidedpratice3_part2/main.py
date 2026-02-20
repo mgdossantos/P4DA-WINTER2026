@@ -1,7 +1,6 @@
 from dash import Dash, html
-import os
-print("RUNNING FILE:", __file__)
-print("CWD:", os.getcwd())
+
+
 firstApp = Dash(__name__)
 
 firstApp.layout = html.Div([
